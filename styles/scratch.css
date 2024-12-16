@@ -1,0 +1,90 @@
+/* Custom background color */
+body {
+    background-color: #f4f4f9;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6; /* Better line spacing */
+}
+
+/* Header styles */
+header {
+    background-color: #444;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Title styles */
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 0.3em;
+}
+
+/* Section styles */
+section {
+    margin: 3em 10%; /* Improved spacing between sections */
+    padding: 1em;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section p {
+    margin-bottom: 1.2em; /* Better paragraph spacing */
+}
+
+/* Custom styles for lists */
+ol {
+    margin-left: 20px;
+}
+
+ul {
+    list-style: disc inside;
+    margin-left: 20px;
+}
+
+li {
+    margin-bottom: 0.8em; /* Better spacing between list items */
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    margin-top: 2em;
+    padding: 1em;
+    background-color: #444;
+    color: white;
+}
+
+/* Image styling */
+img {
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Embedded Tableau styles */
+.tableau-embed iframe {
+    border: none;
+}

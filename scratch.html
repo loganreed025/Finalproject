@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skiing</title>
+    <link rel="stylesheet" href="styles/scratch.css"> 
+</head>
+<body>
+    <header>
+        <div style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
+            <!-- Links to other pages -->
+            <div style="margin-bottom: 1em;">
+                <a href="aiwebapp.html" style="color: white; text-decoration: none; margin-right: 15px;">Game</a>
+                <a href="index.html" style="color: white; text-decoration: none;">Resume</a>
+            </div>
+            <!-- Title of the page -->
+            <h1>Welcome to My Passion Project</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#video">Video</a></li>
+                <li><a href="#graph">Graph</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    
+
+    <section id="about">
+        <h2>About Skiing</h2>
+        <p>This page is all about skiing. I hope you enjoy exploring it!</p>
+        <ol>
+            <li>Main Topics:
+                <ul>
+                    <li>Best ski brands</li>
+                    <ul>Several ski brands cater to different skiing styles and skill levels, making it essential to choose one that suits your needs. <strong>Rossignol</strong> is known for its versatile and beginner-friendly skis, while <strong>Atomic</strong> offers a mix of performance-driven options for intermediate to advanced skiers. <strong>Salomon</strong> is a favorite for its innovative designs and all-mountain versatility, and <strong>Volkl</strong> delivers precision and durability, ideal for aggressive skiers. If you’re into powder or backcountry skiing, brands like <strong>Black Crows</strong> or <strong>Faction</strong> are excellent choices. Always consider the brand’s specialty and match it to your skiing style, whether it's piste, park, or powder.</ul>
+                    <li>Best ski resorts</li>
+                    <ul>The best ski resorts offer a mix of exceptional terrain, reliable snow conditions, and great amenities. <strong>Whistler Blackcomb</strong> in Canada is renowned for its vast terrain, world-class facilities, and lively village, making it a favorite for skiers of all levels. <strong>Vail</strong> in Colorado boasts luxury, extensive runs, and stunning scenery, perfect for a premier skiing experience. For powder lovers, <strong>Alta Ski Area</strong> in Utah is legendary for its deep, light snow and skier-only policy, offering a pure and unforgettable skiing experience. For European skiing, <strong>St. Anton am Arlberg</strong> in Austria combines challenging slopes with vibrant après-ski culture. Whether you’re a beginner or a seasoned skier, these resorts provide unforgettable mountain adventures.</ul>
+                    <li>My personal favorites</li>
+                    <ul>My personal favorites for skiing are <strong>Alta Ski Area</strong> and <strong>Armada Skis</strong>. Alta’s legendary powder and its skier-only policy create a unique and pure mountain experience, with terrain that challenges and excites skiers of all levels. For gear, <strong>Armada Skis</strong> are my top choice—they’re renowned for their innovative designs, versatility, and playful performance, making them perfect for everything from carving groomers to tackling deep powder. Together, Alta and Armada embody the best of skiing, blending exceptional terrain with top-tier equipment for an unforgettable ride.</ul>
+                </ul>
+            </li>
+            <li>Other Areas of Interest</li>
+            <ul>Ski passes like the Ikon Pass and Epic Pass have revolutionized the way skiers access mountains worldwide. The Ikon Pass offers access to a diverse range of iconic ski destinations, including resorts like Aspen, Jackson Hole, and Alta, catering to skiers who value variety and premium experiences. On the other hand, the Epic Pass provides extensive access to resorts such as Vail, Whistler Blackcomb, and Park City, with a focus on affordability and value for frequent skiers. Both passes often include perks like discounts on lodging, lessons, and dining, making them a favorite for avid skiers looking to explore multiple mountains during the season.</ul>
+        </ol>
+    </section>
+    
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <!-- Display visible images -->
+        <div>
+            <img src="Imageofalta.jpg" alt="Alta Ski Area" width="300">
+            <img src="volklskis.jpeg" alt="Volkl Skis" width="300">
+            <img src="brightonskiresort.jpg" alt="Brighton Ski Resort" width="500">
+        </div>
+    </section>
+    
+    <section id="video">
+        <h2>Watch This!</h2>
+        <p>This is my favorite ski edit of all time!</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/yKP7jQknGjs" 
+                title="YouTube video player" frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+        </iframe>
+    </section>
+    
+    <section id="graph">
+        <h2>Interactive Tableau Graph</h2>
+        <div class='tableauPlaceholder' id='viz1734218630359' style='position: relative'>
+            <noscript>
+                <a href='#'>
+                    <img alt='Dashboard 1' src='https://public.tableau.com/static/images/Sk/SkiResortPassComparison/Dashboard1/1_rss.png' style='border: none' />
+                </a>
+            </noscript>
+            <object class='tableauViz' style='display:none;'>
+                <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                <param name='embed_code_version' value='3' />
+                <param name='site_root' value='' />
+                <param name='name' value='SkiResortPassComparison/Dashboard1' />
+                <param name='tabs' value='no' />
+                <param name='toolbar' value='yes' />
+                <param name='static_image' value='https://public.tableau.com/static/images/Sk/SkiResortPassComparison/Dashboard1/1.png' />
+                <param name='animate_transition' value='yes' />
+                <param name='display_static_image' value='yes' />
+                <param name='display_spinner' value='yes' />
+                <param name='display_overlay' value='yes' />
+                <param name='display_count' value='yes' />
+                <param name='language' value='en-US' />
+            </object>
+        </div>
+        <script type='text/javascript'>
+            var divElement = document.getElementById('viz1734218630359');
+            var vizElement = divElement.getElementsByTagName('object')[0];
+            if (divElement.offsetWidth > 800) { 
+                vizElement.style.minWidth='700px';
+                vizElement.style.maxWidth='1000px';
+                vizElement.style.width='100%';
+                vizElement.style.minHeight='927px';
+                vizElement.style.maxHeight='1227px';
+                vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
+            } else if (divElement.offsetWidth > 500) {
+                vizElement.style.minWidth='700px';
+                vizElement.style.maxWidth='1000px';
+                vizElement.style.width='100%';
+                vizElement.style.minHeight='927px';
+                vizElement.style.maxHeight='1227px';
+                vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
+            } else {
+                vizElement.style.width='100%';
+                vizElement.style.height='1877px';
+            }
+            var scriptElement = document.createElement('script');
+            scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+            vizElement.parentNode.insertBefore(scriptElement, vizElement);
+        </script>
+    </section>
+</body>
+</html>
